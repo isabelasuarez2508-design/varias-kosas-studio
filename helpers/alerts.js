@@ -5,4 +5,3 @@ export function generalAlert(title, text, icon){
         icon
     });
 }
-
