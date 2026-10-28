@@ -58,7 +58,7 @@
             </div>
           </div>
 
-          <form action="catalogo.html" method="GET">
+          <form>
             
             <div class="form-grid-2">
               <div class="form-group">
@@ -160,10 +160,10 @@
             </div>
 
             <div style="display: flex; gap: var(--space-sm); flex-wrap: wrap; margin-top: var(--space-lg);">
-              <button type="submit" class="btn btn-primary" style="flex: 1; padding: 0.95rem;">
+              <button id="btn-agregar-kosa" type="button" class="btn btn-primary" style="flex: 1; padding: 0.95rem;">
                 Publicar Cosa en el Catálogo
               </button>
-              <a href="./cosas-view-catalogo.html" class="btn" style="background-color: var(--color-surface-muted);">
+              <a href="catalogo.html" class="btn" style="background-color: var(--color-surface-muted);">
                 Descartar
               </a>
             </div>
@@ -215,6 +215,7 @@
       </div>
     </div>
   </footer>
-
+  <script type="module" src="../../controllers/CosasController.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
